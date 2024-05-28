@@ -10,8 +10,16 @@ Technologies Used
 React: JavaScript library for building user interfaces.
 Vite: Next-generation front-end tooling for fast development.
 CSS: Styling for the application (assumed to be in style.css).
+ 
+## Tech Stack 
 
-Screenshot
+**Backend**-> Express 
+\
+**Frontend**-> React JS
+\
+**DataBase**->MongoDB
+\
+**Auth**->Zod
 
 **File Structure**
 ```
@@ -32,3 +40,9 @@ Install Dependencies: Navigate to the project directory and run npm install to i
 Start the Development Server: Run npm run dev to start the Vite development server.
 
 View in Browser: Open your web browser and go to http://localhost:3000 to see the running application.
+
+### Notes
+API Endpoint: The app fetches  todos from http://localhost:3000/todos. Ensure that the backend server is running and accessible at this endpoint.
+
+Styling: The application's styling is managed using App.css.
+This project provides a basic example of a React application that interacts with a backend API to manage a list of todos. It demonstrates the use of React hooks for state management and component-based architecture
